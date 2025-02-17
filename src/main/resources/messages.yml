@@ -1,0 +1,25 @@
+messages:
+  prefix: "&8[&cFunTops&8] "
+  reload: "{prefix} &aКонфигурация успешно перезагружена!"
+  no_permission: "{prefix} &cУ вас нет прав для выполнения этой команды!"
+  unknown_command: "{prefix} &cНеизвестная команда! Используйте /ft help."
+  insufficient_arguments: "{prefix} &cНедостаточно аргументов! Используйте /ft help."
+  specify_top: "{prefix} &cУкажите название топа!"
+  unknown_action: "{prefix} &cНеизвестное действие! Доступные действия: close, list, info."
+  top_not_found: "{prefix} &cТоп %top% не найден!"
+  invalid_top_configuration: "{prefix} &cНеправильная конфигурация топа %top%!"
+  prizes_distributed: "{prefix} &aПризы для топа %top% успешно выданы!"
+  no_tops_available: "{prefix} &cНет доступных топов!"
+  top_list_header: "{prefix} &7Список топов:"
+  help: |
+    {prefix} &7Доступные команды:
+    &e/ft top close <топ> &7- Выдать призы победителям
+    &e/ft top list &7- Показать список топов
+    &e/ft top info <топ> &7- Показать информацию о топе
+    &e/ft reload &7- Перезагрузить конфигурацию
+    &e/ft help &7- Показать это меню
+  top_info_balance:
+    - "&#307 Топ по балансу:"
+    - "&e1. %1%"
+    - "&e2. %2%"
+    - "&e3. %3%"

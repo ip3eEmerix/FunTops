@@ -1,0 +1,18 @@
+name: FunTops
+version: '${version}'
+main: org.fun.tops.FunTops
+api-version: '1.16'
+prefix: FunT
+softdepend: [ "PlaceholderAPI" ]
+authors: [SALIEVVS]
+description: Плагин будет автоматически или по команде выдовать призы людям занявшим
+
+commands:
+  ft:
+    description: Основная команда плагина
+    usage: /ft <top|reload|help>
+
+permissions:
+  funtops.admin:
+    description: Полный доступ к админ-командам FunTops
+    default: op

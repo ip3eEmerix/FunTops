@@ -1,0 +1,12 @@
+plugin-v: 1.4
+auto-update: true
+
+exampleTop:
+  prizes:
+    1: "give %player% diamond 1"
+    2: "give %player% gold 1"
+    3: "give %player% iron 1"
+  placeholders:
+    1: "%top_1_player%"
+    2: "%top_2_player%"
+    3: "%top_3_player%"

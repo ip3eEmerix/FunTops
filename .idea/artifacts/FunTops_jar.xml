@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FunTops:jar">
+    <output-path>$USER_HOME$/OneDrive/Desktop</output-path>
+    <root id="archive" name="FunTops.jar">
+      <element id="module-output" name="FunTops.main" />
+    </root>
+  </artifact>
+</component>
